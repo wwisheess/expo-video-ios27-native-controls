@@ -1,6 +1,6 @@
 # expo-video: native controls missing on iOS 27
 
-Minimal reproduction for an `expo-video` bug: a `VideoView` rendered in a screen pushed with `@react-navigation/native-stack` never shows AVKit controls on iOS 27.
+Minimal reproduction for [expo/expo#50487](https://github.com/expo/expo/issues/50487) (fix: [expo/expo#50486](https://github.com/expo/expo/pull/50486)). The `expo-video` bug: a `VideoView` rendered in a screen pushed with `@react-navigation/native-stack` never shows AVKit controls on iOS 27.
 
 ## Steps
 
